@@ -4,7 +4,7 @@ fun main(){
         val r = Random()
         val choice = 1 + r.nextInt(16)
         val answer = ""
-        println("MAGIC 8-BALL SAYS: $answer")
+        println("Magic 8-Ball Says: $answer")
             if (choice == 1)
                 print("Yes, of course " )
             else if (choice == 2)
@@ -30,6 +30,6 @@ fun main(){
             else if (choice == 12)
                 print("Ask again later ")
             else
-                print("8-BALL ERROR")
+                print("Magic 8-Ball ERROR")
     }
 }
