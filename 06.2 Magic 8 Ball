@@ -32,4 +32,3 @@ fun main(){
             else
                 print("Magic 8-Ball ERROR")
     }
-}
